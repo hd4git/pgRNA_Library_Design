@@ -32,4 +32,5 @@
 ./pgRNA_genes.sh -bed <input bed file>
 ```
 **Input bed file:** Its a tab separated text file with ".bed" extension 
-    chr | start | stop | name | score | strand 
+   | chr | start | stop | name | score | strand |
+   |-----|-------|------|------|-------|--------|
