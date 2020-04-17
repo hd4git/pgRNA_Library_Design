@@ -32,4 +32,4 @@ pgRNA_genes.sh is a wrapper for scripts that are used to:
 ./pgRNA_genes.sh -bed <input bed file>
 ```
 Input bed file: Its a tab separated text file with ".bed" extension 
-                <chr>\t<start>\t<stop>\t<name>\t<score>\t<strand>
+    chr | start | stop | name | score | strand 
