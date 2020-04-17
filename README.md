@@ -1,6 +1,6 @@
 # Description 
 
-pgRNA_genes.sh is a wrapper for scripts that are used to: 
+**pgRNA_genes.sh** is a wrapper for scripts that are used to: 
   - browse 2kb upstream and downstream regions of the targets mentioned in the input bed file
   - identify guide sequences with PAM sites
   - mapping the guides across the genome to identify potential off target
@@ -31,7 +31,5 @@ pgRNA_genes.sh is a wrapper for scripts that are used to:
 ```
 ./pgRNA_genes.sh -bed <input bed file>
 ```
-Input bed file: Its a tab separated text file with ".bed" extension 
-
+**Input bed file:** Its a tab separated text file with ".bed" extension 
     chr | start | stop | name | score | strand 
-    ----|-------|------|------|-------|-------
